@@ -66,3 +66,29 @@ h1 {
   color: #00796b;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.charts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.chart {
+  width: 45%;
+}
+
+.city-detail {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.city-detail a {
+  display: block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.city-detail a:hover {
+  text-decoration: underline;
+}

@@ -65,3 +65,29 @@ h1 {
   border: 1px solid #dbb2df;
   border-radius: 4px;
 }
+
+.charts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.chart {
+  width: 45%;
+}
+
+.city-detail {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.city-detail a {
+  display: block;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.city-detail a:hover {
+  text-decoration: underline;
+}
